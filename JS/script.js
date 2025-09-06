@@ -50,7 +50,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     // Si le formulaire est valide, on peut l'envoyer
     if (isValid) {
         // Ici, vous ajouteriez le code pour envoyer le formulaire
-        alert('Votre message a été envoyé avec succès !');
+        alert(name.value + ' votre message a été envoyé avec succès !');
         this.reset();
     }
 });
@@ -65,4 +65,5 @@ window.addEventListener('scroll', function() {
         nav.style.boxShadow = 'none';
         nav.style.background = 'transparent';
     }
+
 });
